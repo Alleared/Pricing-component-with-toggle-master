@@ -1,0 +1,1 @@
+Frontend Mentor JavaScript Junior challenge. This challenge helped me on how to create those toggle switch buttons. They are more complicated than I thought.

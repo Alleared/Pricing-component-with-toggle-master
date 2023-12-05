@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="author" content="Alleared">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Pricing Component with Toggle Price</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <h1>Our Pricing</h1>
+      <div class="pricing-div">
+        <div>
+          <p>Annually</p>
+        </div>
+        <div>
+          <label for="toggle-button" class="switch js-switch">
+            <input type="checkbox" id="toggle-button">
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div>
+          <p>Monthly</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <section>
+        <div class="section-title-div">
+          <p>Basic</p>
+          <div class="price">
+            <div>
+              <span class="dollar-sign">&dollar;</span>
+            </div>
+            <div>
+              <h2 class="js-basic-price">199.99</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-storage-div">
+          <div>
+            <p>500 GB Storage</p>
+          </div>
+          <div>
+            <p>2 Users Allowed</p>
+          </div>
+          <div>
+            <p>Send up to 3 GB</p>
+          </div>
+        </div>
+        <button class="learn-more-button">LEARN MORE</button>
+      </section>
+      
+      <section>
+        <div class="section-title-div">
+          <p id="main-price">Professional</p>
+          <div class="price">
+            <div>
+              <span class="dollar-sign">&dollar;</span>
+            </div>
+            <div>
+              <h2 class="js-professional-price">249.99</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-storage-div">
+          <div>
+            <p>1 TB Storage</p>
+          </div>
+          <div>
+            <p>5 Users Allowed</p>
+          </div>
+          <div>
+            <p>Send up to 10 GB</p>
+          </div>
+        </div>
+          <button class="learn-more-button main-price-button">LEARN MORE</button>
+      </section>
+
+      <section>
+        <div class="section-title-div">
+          <p>Master</p>
+          <div class="price">
+            <div>
+              <span class="dollar-sign">&dollar;</span>
+            </div>
+            <div>
+              <h2 class="js-master-price">399.99</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-storage-div">
+          <div>
+            <p>2 TB Storage</p>
+          </div>
+          <div>
+            <p>10 Users Allowed</p>
+          </div>
+          <div>
+            <p>Send up to 20 GB</p>
+          </div>
+        </div>
+        <button class="learn-more-button">LEARN MORE</button>
+      </section>
+
+    </article>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Alleared</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
